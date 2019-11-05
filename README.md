@@ -7,20 +7,31 @@ Project Detritus is an infinite runner, that has a helpless robot trying to esca
   - Achievements!!!
 
 # Planned Features!
- ✅  **Completed**
- [ ] Not complete
+✅ **Completed** ⬜ **Not complete**
+
+----------------------------------------------
  
-✅   **Start project repo**
+✅ **Start project repo**
+
 ✅ **Start Xcode Project**
+
 ✅ **Pogrammer art**
- [ ] core movement mehcanics
- [ ] points and saving
- [ ] character upgrades
- [ ] scoreboard
- [ ] graphics
- [ ] music
- [ ] effects
- [ ] Achievements
+
+⬜ **Core movement mehcanics**
+
+⬜ **Points and saving**
+
+⬜ **Character upgrades**
+
+⬜ **Scoreboard**
+
+⬜ **Graphics**
+
+⬜ **music**
+
+⬜ **Effects**
+
+⬜ **Achievements**
  
  ## current developers
 | Role | Name | Github |
