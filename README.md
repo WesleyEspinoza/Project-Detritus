@@ -1,6 +1,6 @@
 # Project Detritus
 
-Project Detritus is an infinite runner, that has a helpless robot trying to escape it's inevitable death. after it was thrown into a trash grinder.
+Project Detritus is an infinite runner, that has a helpless robot trying to escape its inevitable death after it was thrown into a trash grinder.
 
   - Upgrade your robot and add cool abilites with scraps you pick up.
   - Compete against your friends with an online scoreboard
