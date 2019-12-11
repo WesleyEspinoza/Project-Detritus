@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B122E6C2395C24700B9FEFF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B122E6B2395C24700B9FEFF /* Player.swift */; };
+		2B122E722397DAD500B9FEFF /* HalfEighties.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B122E712397D9B200B9FEFF /* HalfEighties.ttf */; };
+		2B63F7A523A068F700787252 /* UserDefaultsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B63F7A423A068F700787252 /* UserDefaultsExt.swift */; };
+		2B63F7A823A0ADEC00787252 /* coinSpawn.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B63F7A623A0ADEC00787252 /* coinSpawn.sks */; };
+		2B63F7A923A0ADEC00787252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B63F7A723A0ADEC00787252 /* Assets.xcassets */; };
 		2BF90C522371EBAD0090AA6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF90C512371EBAD0090AA6A /* AppDelegate.swift */; };
 		2BF90C582371EBAD0090AA6A /* MainGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF90C572371EBAD0090AA6A /* MainGameScene.swift */; };
 		2BF90C5A2371EBAE0090AA6A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF90C592371EBAE0090AA6A /* GameViewController.swift */; };
@@ -31,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B122E6B2395C24700B9FEFF /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2B122E712397D9B200B9FEFF /* HalfEighties.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HalfEighties.ttf; sourceTree = "<group>"; };
+		2B63F7A423A068F700787252 /* UserDefaultsExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExt.swift; sourceTree = "<group>"; };
+		2B63F7A623A0ADEC00787252 /* coinSpawn.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = coinSpawn.sks; sourceTree = "<group>"; };
+		2B63F7A723A0ADEC00787252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BF90C4E2371EBAD0090AA6A /* Detritus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Detritus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF90C512371EBAD0090AA6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BF90C572371EBAD0090AA6A /* MainGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameScene.swift; sourceTree = "<group>"; };
@@ -93,6 +103,7 @@
 				2BF90C7C2371FFDF0090AA6A /* SKSceneFile */,
 				2BF90C7B2371FFC50090AA6A /* GameScenes */,
 				2BF90C5B2371EBAE0090AA6A /* Main.storyboard */,
+				2B122E712397D9B200B9FEFF /* HalfEighties.ttf */,
 				2BF90C5E2371EBB20090AA6A /* Assets.xcassets */,
 				2BF90C602371EBB30090AA6A /* LaunchScreen.storyboard */,
 				2BF90C632371EBB30090AA6A /* Info.plist */,
@@ -122,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				2BF90C572371EBAD0090AA6A /* MainGameScene.swift */,
+				2B63F7A623A0ADEC00787252 /* coinSpawn.sks */,
+				2B63F7A723A0ADEC00787252 /* Assets.xcassets */,
 				2BF90C7E237200100090AA6A /* MainMenuScene.swift */,
 			);
 			path = SKSceneFile;
@@ -139,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				2BF90C81237200AC0090AA6A /* ButtonNode.swift */,
+				2B122E6B2395C24700B9FEFF /* Player.swift */,
+				2B63F7A423A068F700787252 /* UserDefaultsExt.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -226,9 +241,12 @@
 			files = (
 				2BF90C782371FF470090AA6A /* MainMenuScene.sks in Resources */,
 				2BF90C5D2371EBAE0090AA6A /* Main.storyboard in Resources */,
+				2B63F7A823A0ADEC00787252 /* coinSpawn.sks in Resources */,
 				2BF90C5F2371EBB20090AA6A /* Assets.xcassets in Resources */,
 				2BF90C7A2371FF7F0090AA6A /* MainGameScene.sks in Resources */,
 				2BF90C622371EBB30090AA6A /* LaunchScreen.storyboard in Resources */,
+				2B63F7A923A0ADEC00787252 /* Assets.xcassets in Resources */,
+				2B122E722397DAD500B9FEFF /* HalfEighties.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B63F7A523A068F700787252 /* UserDefaultsExt.swift in Sources */,
 				2BF90C582371EBAD0090AA6A /* MainGameScene.swift in Sources */,
 				2BF90C5A2371EBAE0090AA6A /* GameViewController.swift in Sources */,
 				2BF90C7F237200100090AA6A /* MainMenuScene.swift in Sources */,
 				2BF90C522371EBAD0090AA6A /* AppDelegate.swift in Sources */,
+				2B122E6C2395C24700B9FEFF /* Player.swift in Sources */,
 				2BF90C82237200AC0090AA6A /* ButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

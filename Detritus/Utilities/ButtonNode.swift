@@ -15,6 +15,8 @@ enum ButtonNodeStates {
 
 class ButtonNode: SKSpriteNode {
     
+    public var hasSet: Bool = false
+    
     /* Setup a dummy action closure */
     var selectedHandler: () -> Void = { print("No button action set") }
     
